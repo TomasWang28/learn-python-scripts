@@ -1,0 +1,24 @@
+使用常见模块
+	要求：
+		1、常见模块功能介绍
+		2、常见模块使用方法
+
+1.os
+    os模块就是对操作系统进行操作
+    常见操作对文件或文件夹的修改如os.path,os.chmod,os.chdir等
+2.sys
+    sys是python自带模块.
+    当执行import sys后, python在 sys.path 变量中所列目录中寻找 sys 模块文件。
+    然后运行这个模块的主块中的语句进行初始化，然后就可以使用模块了 。
+3.randam
+    random是python产生伪随机数的模块，随机种子默认为系统时钟。
+    常用random.randint,randam.choises等
+4.getpass
+    getpass模块提供了平台无关的在命令行下输入密码的方法
+5.string
+    string模块提供了许多字符串常量
+6.ptutil
+    ptutil为获取系统信息的参数的模块
+7.shutil
+    shutil模块主要作用与拷贝文件用的,s就是对os中文件操作的补充,移动复制打压缩解压等操作。
+
